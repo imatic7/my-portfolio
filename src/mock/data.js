@@ -21,9 +21,9 @@ export const aboutData = {
   paragraphOne:
     "I recently graduated at Faculty of Electrical engineering, Mechanical engineering and Naval Architecture(FESB) in Split, Croatia and obtained Master's degree in Computer Engineering. I have a good knowledge of English and A2 certificate of German language. My goal is to join the software-development world as a junior developer.",
   paragraphTwo:
-    'I am junior JavaScript developer with a good knowledge of ES6, CSS and basic of ReactJS, Atfer graduation I started working more with JavaScript and ReactJS, and developed a couple of interesting projects which you can see below.',
+    'I am junior JavaScript developer with a good knowledge of ES6, CSS and basic of ReactJS, After graduation I started working more with JavaScript and ReactJS, and developed a couple of interesting projects which you can see below.',
   paragraphThree:
-    "I'm extremely eager to work and learn and I would be really excited to work in an environment that would push me in a full-stack direction. During my collage, I also had lot of experience with using C, C++, C#, Arduino and Python.",
+    "I'm extremely eager to work and learn, and I would be really excited to work in an environment that would push me in a full-stack direction. During my collage, I also had lot of experience with using C, C++, C#, Arduino and Python.",
   resume: '',
 };
 
