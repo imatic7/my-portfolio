@@ -54,7 +54,7 @@ export const projectsData = [
     img: 'project3.PNG',
     title: 'User-Management ReactJS App',
     info:
-      'ReactJS app with 3 pages(Home, Login and Dashboard). Formik-lib is used on Login-form and Yup for login-validation. For seccessful login and users to display on dashboard I used FatchAPI method. ',
+      'ReactJS app with 3 pages(Home, Login and Dashboard). Formik-lib is used on Login-form and Yup for login-validation. For successful login and users to display on dashboard I used FatchAPI method. ',
     info2: 'Download this code and run it with npm start.',
 
     url: 'https://github.com/imatic7/User-management-app', // if no repo, the button will not show up
