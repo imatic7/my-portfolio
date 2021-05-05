@@ -49,13 +49,23 @@ export const projectsData = [
     url: 'https://imatic7.github.io/React-TodoList/',
     repo: 'https://github.com/imatic7/React-TodoList', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'project3.PNG',
+    title: 'User-Management ReactJS App',
+    info:
+      'ReactJS app with 3 pages(Home, Login and Dashboard). Formik-lib is used on Login-form and Yup for login-validation. For seccessful login and users to display on dashboard I used FatchAPI method. ',
+    info2: 'Download this code and run it with npm start.',
+
+    url: 'https://github.com/imatic7/User-management-app', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: 'You have a question for me? Feel free to contact me via E-Mail',
   btn: 'Click Here',
-  email: 'imatic01@fesb.hr',
+  email: 'imatic1207@gmail.com',
 };
 
 // FOOTER DATA
