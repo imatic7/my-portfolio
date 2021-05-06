@@ -51,7 +51,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project3.PNG',
+    img: 'Project4.PNG',
     title: 'User-Management ReactJS App',
     info:
       'ReactJS app with 3 pages(Home, Login and Dashboard). Formik-lib is used on Login-form and Yup for login-validation. For successful login and user list to display on dashboard I used FatchAPI method. ',
