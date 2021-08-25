@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     "I recently graduated at Faculty of Electrical engineering, Mechanical engineering and Naval Architecture(FESB) in Split, Croatia and obtained Master's degree in Computer Engineering. I have a good knowledge of English and A2 certificate of German language. My goal is to join the software-development world as a junior developer.",
   paragraphTwo:
-    'I am junior JavaScript developer with a good knowledge of ES6, CSS and basic of ReactJS, After graduation I started working more with JavaScript and ReactJS, and developed a couple of interesting projects which you can see below.',
+    'I am junior JavaScript developer with a good knowledge of ES6, CSS and basic of ReactJS, After graduation I started working more with JavaScript and ReactJS, and developed a few interesting projects which you can see below.',
   paragraphThree:
     "I'm extremely eager to work and learn, and I would be really excited to work in an environment that would push me in a full-stack direction. During my collage, I also had lot of experience with using C, C++, C#, Arduino and Python.",
   resume: '',
@@ -51,13 +51,36 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'Project3.PNG',
+    title: 'Random Color Generator ReactJS App',
+    info:
+      'ReactJS app with a button that get random color from API and display color list in hex. List have drag and drop function with highlighted last added color. ',
+    info2: '',
+
+    url: 'https://imatic01-randomcolor.netlify.app',
+    repo: 'https://github.com/imatic7/RandomColor', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'Project4.PNG',
     title: 'User-Management ReactJS App',
     info:
-      'ReactJS app with 3 pages(Home, Login and Dashboard). Formik-lib is used on Login-form and Yup for login-validation. For successful login and user list to display on dashboard I used FatchAPI method. ',
-    info2: 'Download this code and run it with npm start.',
+      'ReactJS app with 3 pages(Home, Login and Dashboard). Formik-lib is used on Login-form and Yup for login-validation. For successful login and user list to display on dashboard I used FatchAPI method. You can find login information on reqres.in',
+    info2: '',
 
-    url: 'https://github.com/imatic7/User-management-app', // if no repo, the button will not show up
+    url: 'https://imatic01-usermanagementapp.netlify.app',
+    repo: 'https://github.com/imatic7/User-management-app', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Project5.PNG',
+    title: 'Notes ReactJS App',
+    info:
+      'App for plan and store notes on your browser. I create NotesProvider for notes storage and UseNotes custom hook to add, remove, edit and save notes. You can use react markdown format for writing notes. ',
+    info2: '',
+
+    url: 'https://imatic01-notesapp.netlify.app',
+    repo: 'https://github.com/imatic7/NotesAPP', // if no repo, the button will not show up
   },
 ];
 
